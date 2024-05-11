@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body-outer-container{
+    height: 650px;
+    border-radius: 20px;
+    margin: 50px;
+    background-image: url(images/backgroundImage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.body-inner-container{
+    height: 600px;
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.navbar{
+    height: 70px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 50px;
+    margin: 10px;
+}
+.nav-item{
+    height: 50px;
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+}
+.navbar button{
+    background-color: #1E0342;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-heading{
+    font-size: 45px;
+    font-weight: 900;
+    height: 182px;
+}
+.main-para{
+    font-weight: 900;
+    font-size: large;
+}
+.card-box{
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+}
+.card{
+    height: 180px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card1 pre{
+    font-size: 20px;
+    font-weight: 900;
+}
+#location{
+    padding: 5px;
+    width: 110px;
+    color:#1E0342;
+    font-weight: 900;
+    font-size: 15px;
+    border:none;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.card2 pre{
+    font-weight: 900;
+    font-size: 14px;
+}
+.card2 .card2-heading{
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.card3 .card3-heading{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+}
+.card3 button{
+    background-color: #1E0342;
+    border: 2px solid #1E0342;
+    padding: 10px;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+    color: #1E0342;
+    background-color: white;
+    font-weight: 900;
+    font-size: 14px;
+    margin-left: 25px;
+}
